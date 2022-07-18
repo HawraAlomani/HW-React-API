@@ -1,0 +1,225 @@
+.App {
+  text-align: center;
+}
+body {
+  overflow: hidden;
+  color: rgb(245, 245, 220);
+  font-family: "Rock Salt", cursive;
+  background-image: url("./component/images/background.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+}
+h1 {
+  font-size: 50px;
+}
+.SidebarContainer{
+font-family: 'Courier New', Courier, monospace;
+color: #ffe54c;
+background-color: rgba(0, 0, 0, 0.29);
+padding: 5px;
+display:flex;
+}
+.sidebarItem{
+  margin: 10px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap");
+li {
+  font-size: 25px;
+  list-style: none;
+  text-align: left;
+}
+
+li::before {
+  content: "- ";
+}
+
+/* CSS Button */
+.button-52 {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-52:after {
+  content: "";
+  background-color: #ffe54c;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.button-52:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+  .button-52 {
+    padding: 13px 50px 13px;
+  }
+}
+
+.userInput {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-right: 50px;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(245, 245, 220);
+  opacity: 1;
+}
+.scrollable {
+  overflow-y: scroll;
+  height: 449px;
+}
+.scrollable::-webkit-scrollbar {
+  width: 10px;
+}
+
+.scrollable::-webkit-scrollbar-track {
+  background-color: #0000002a;
+  border-radius: 100px;
+}
+
+.scrollable::-webkit-scrollbar-thumb {
+  background-color: #ffe54c;
+  border-radius: 100px;
+}
+footer{
+  background-color: aliceblue;
+}
+.Login{
+  margin-top: 50px;
+  padding: 10px;
+  border: 1px solid black;
+  background-color: rgba(0, 0, 0, 0.365);
+  display: block;
+  margin-left: 25%;
+  margin-right: 25%;
+  height: 500px;
+  width: 50%;
+  font-family:  serif;
+  font-size: 30px;
+}
+.Login input{
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-right: 50px;
+  
+}
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(182, 182, 180);
+  opacity: 1;
+}
+.loginBtn{
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.loginBtn:after {
+  content: "";
+  background-color: #ffe54c;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+.loginBtn:hover:after {
+  top: 0px;
+  left: 0px;
+}
+.taskBtn{
+  float: left;
+  display:inline;
+  padding-right: 30px;
+
+}
+.taskBtn button{
+  font-size: 12px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 5px 10px 10px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin: 5px;
+}
+.taskBtn button:after{
+  content: "";
+  background-color: #ffe54c;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 3px;
+  left: 4px;
+  transition: 0.2s;
+}
+.taskBtn button:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+#deleteBtn {
+  font-weight: bold;
+  background-color: #ff4c5e;
+}
+#editBtn {
+  font-weight: bold;
+  background-color: #43e8fa;
+}
